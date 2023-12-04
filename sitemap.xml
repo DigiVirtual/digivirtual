@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://digivirtual.net/</loc>
-         <lastmod>2023-12-03</lastmod>
+         <lastmod>2023-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/india/andhra/</loc>
-         <lastmod>2023-12-03</lastmod>
+         <lastmod>2023-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/india/federal-bank/</loc>
-         <lastmod>2023-12-03</lastmod>
+         <lastmod>2023-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://digivirtual.net/bank-statement/india/punjab-national-bank/</loc>
+         <lastmod>2023-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
