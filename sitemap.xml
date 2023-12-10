@@ -2,52 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://digivirtual.net/</loc>
-         <lastmod>2023-12-09</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/india/andhra/</loc>
-         <lastmod>2023-12-09</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/india/federal-bank/</loc>
-         <lastmod>2023-12-09</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/india/punjab-national-bank/</loc>
-         <lastmod>2023-12-09</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/india/yes-bank/</loc>
-         <lastmod>2023-12-09</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/italy/unicredit-bank/</loc>
-         <lastmod>2023-12-09</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/malaysia/maybank/</loc>
-         <lastmod>2023-12-09</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/saudi-arabia/ncb-bank/</loc>
-         <lastmod>2023-12-09</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/turkey/garanti-bank/</loc>
-         <lastmod>2023-12-09</lastmod>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/usa/bank-of-america/</loc>
-         <lastmod>2023-12-09</lastmod>
+         <lastmod>2023-12-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://digivirtual.net/bank-statement/usa/citibank/</loc>
+         <lastmod>2023-12-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://digivirtual.net/bank-statement/usa/go2bank/</loc>
+         <lastmod>2023-12-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
