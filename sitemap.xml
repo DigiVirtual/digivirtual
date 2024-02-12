@@ -51,7 +51,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://digivirtual.net/bank-statement/germany/oldenburgische-Landesbank/</loc>
+         <loc>https://digivirtual.net/bank-statement/germany/oldenburgische-landesbank/</loc>
+         <lastmod>2024-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://digivirtual.net/bank-statement/germany/stadtsparkasse-oberhausen/</loc>
          <lastmod>2024-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
