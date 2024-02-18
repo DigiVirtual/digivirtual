@@ -46,11 +46,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://digivirtual.net/bank-statement/germany/Volksbank/</loc>
-         <lastmod>2024-02-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://digivirtual.net/bank-statement/germany/commerzbank/</loc>
          <lastmod>2024-02-18</lastmod>
          <changefreq>daily</changefreq>
@@ -62,6 +57,11 @@
     </url>
     <url>
          <loc>https://digivirtual.net/bank-statement/germany/stadtsparkasse-oberhausen-bank/</loc>
+         <lastmod>2024-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://digivirtual.net/bank-statement/germany/volksbank/</loc>
          <lastmod>2024-02-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
