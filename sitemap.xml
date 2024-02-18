@@ -111,6 +111,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://digivirtual.net/bank-statement/usa/chase-bank/</loc>
+         <lastmod>2024-02-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://digivirtual.net/bank-statement/usa/citibank/</loc>
          <lastmod>2024-02-18</lastmod>
          <changefreq>daily</changefreq>
