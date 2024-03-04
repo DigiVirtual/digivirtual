@@ -146,6 +146,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://digivirtual.net/bank-statement/usa/wells-fargo-bank/</loc>
+         <lastmod>2024-03-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://digivirtual.net/bank-statement/vietnam/vietcombank/</loc>
          <lastmod>2024-03-04</lastmod>
          <changefreq>daily</changefreq>
