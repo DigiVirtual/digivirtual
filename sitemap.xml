@@ -221,6 +221,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://digivirtual.net/passport/cyprus/</loc>
+         <lastmod>2024-03-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://digivirtual.net/passport/czechia/</loc>
+         <lastmod>2024-03-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://digivirtual.net/products/</loc>
          <lastmod>2024-03-23</lastmod>
          <changefreq>daily</changefreq>
