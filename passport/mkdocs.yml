@@ -1,0 +1,213 @@
+site_name: Digi Virtual
+site_url: https://digivirtual.net/
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+
+  copyright: Copyright &copy; 2022 - 2024 Digi Virtual
+
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.indexes
+    - navigation.tabs
+
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: blue
+      accent: blue
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: blue
+      accent: blue
+
+
+plugins:
+
+  - tags:
+      tags_file: categories.md
+
+  - blog:
+      post_url_format: "{slug}"
+      
+  - macros
+  - search
+
+markdown_extensions:
+  - attr_list
+
+extra_javascript:
+  - assets/js/tawkto.js
+
+extra_css:
+  - assets/css/extra.css
+
+extra:
+    analytics:
+      provider: google
+      property: G-23RXECKPY4
+
+    generator: false
+
+    social:
+    - icon: fontawesome/brands/telegram 
+      link: https://t.me/DigiVirtualbot
+      name: Digi Virtual Telegram Bot
+    - icon: fontawesome/brands/whatsapp
+      link: https://api.whatsapp.com/send?phone=380947100585
+      name: Digi Virtual Whatsapp
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/DigiVirtual_Net
+      name: Digi Virtual Instagram
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/DigiVirtual_Net
+      name: Digi Virtual X (Twitter)
+    - icon: fontawesome/brands/pinterest
+      link: https://www.pinterest.com/digivirtual
+      name: Digi Virtual Pinterest
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - 🏠 Home: index.md
+  - 🛒 Market: 'https://market.digivirtual.net/'
+  - 📝 Blog:
+    - blog/index.md
+  - 🏷️ Products:
+    - products/index.md
+
+    - ✈️ Passports:
+      - passport/index.md
+      - Argentina Passport: passport/argentina.md
+      - Australia Passport: passport/australia.md
+      - Austria Passport: passport/austria.md
+      - Azerbaijan Passport: passport/azerbaijan.md
+      - Belgium Passport: passport/belgium.md
+      - Brazil Passport: passport/brazil.md
+      - Bulgaria Passport: passport/bulgaria.md
+      - Chile Passport: passport/chile.md
+      - China Passport: passport/china.md
+      - Cyprus Passport: passport/cyprus.md
+      - Czech Republic Passport: passport/czechia.md
+      - Denmark Passport: passport/denmark.md
+      - Dominican Republic: passport/dominican-republic.md
+
+    - 📑 Bank Statements:
+      - bank-statement/index.md
+      - Australia:
+        - Bendigo Bank Statement: bank-statement/australia/bendigo-bank.md
+        - Common Wealth Bank Statement: bank-statement/australia/common-wealth-bank.md
+        - ING(Orange Everyday) Bank Statement: bank-statement/australia/ing-orange-everyday-bank.md
+        - Nab Bank Statement: bank-statement/australia/nab-bank.md
+      - Bangladesh:
+        - Islami Bank Statement: bank-statement/bangladesh/islami-bank.md
+      - France:
+        - Revolut Bank Statement: bank-statement/france/revolut-bank.md
+      - Germany:
+        - CommerzBank Statement: bank-statement/germany/commerzbank.md
+        - Oldenburgische Landesbank Statement: bank-statement/germany/oldenburgische-landesbank.md
+        - Stadtsparkasse Oberhausen Bank Statement: bank-statement/germany/stadtsparkasse-oberhausen-bank.md
+        - VolksBank Statement: bank-statement/germany/volksbank.md
+      - India:
+        - Andhera Bank Statement: bank-statement/india/andhra.md
+        - Federal Bank Statement: bank-statement/india/federal-bank.md
+        - Punjab National Bank Statement: bank-statement/india/punjab-national-bank.md
+        - Yes Bank Statement: bank-statement/india/yes-bank.md
+      - Italy:
+        - UniCredit Bank Statement: bank-statement/italy/unicredit-bank.md
+      - Malaysia:
+        - Maybank Statement: bank-statement/malaysia/maybank.md
+      - Saudi Arabia:
+        - NCB Bank Statement: bank-statement/saudi-arabia/ncb-bank.md
+      - Turkey:
+        - Garanti Bank Statement: bank-statement/turkey/garanti-bank.md
+      - United States:
+        - Bank of America Statement: bank-statement/usa/bank-of-america.md
+        - Chase Bank Statement: bank-statement/usa/chase-bank.md
+        - Citibank Statement: bank-statement/usa/citibank.md
+        - GO2bank Statement: bank-statement/usa/go2bank.md
+        - Navy Federal Credit Union Bank Statement: bank-statement/usa/navy-federal-credit-union-bank.md
+        - PNC Bank Statement: bank-statement/usa/pnc-bank.md
+        - Regions Bank Statement: bank-statement/usa/regions-bank.md
+        - TD Bank Statement: bank-statement/usa/td-bank.md
+        - Wells Fargo Bank Statement: bank-statement/usa/wells-fargo-bank.md
+      - Vietnam:
+        - Vietcombank Statement: bank-statement/vietnam/vietcombank.md
+
+    - 📄 Utility Bill:
+      - utility-bill/index.md
+      - Philippines:
+        - Meralco Electric Utility Bill: utility-bill/philippines/meralco-electric.md
+      - Romania:
+        - Gaz Est Utility Bill: utility-bill/romania/gaz-est.md
+      - Spain:
+        - endesa Energy Utility Bill: utility-bill/spain/endesa-energy.md
+      - Turkey:
+        - EnerjiSA Utility Bill: utility-bill/turkey/enerjisa.md
+        - Türk Telekom Utility Bill: utility-bill/turkey/turk-telekom.md
+      - United Arab Emirates:
+        - Dewa Bill: utility-bill/uae/dewa.md
+      - United Kingdom:
+        - British Gas Utility Bill: utility-bill/uk/british-gas.md
+      - United States:
+        - conEdison Energy Electricity Bill: utility-bill/usa/conedison-energy.md
+        - Florida City Gas Bill: utility-bill/usa/fcg.md
+        - Pacific Power Electric Utility Bill: utility-bill/usa/pacific-power-electric.md
+        - PG&E Energy Utility Bill: utility-bill/usa/pge-energy.md
+        - PSEG Utility Bill: utility-bill/usa/pseg.md
+        - SDG&E Energy Utility Bill: utility-bill/usa/sdge-energy.md
+        - Xcel Energy Utility Bill: utility-bill/usa/xcel-energy.md
+        - Xfinity Utility Bill: utility-bill/usa/xfinity.md
+
+  - 🔠 Categories: categories.md
+  - 🔐 Privacy & Policy: privacy-policy.md

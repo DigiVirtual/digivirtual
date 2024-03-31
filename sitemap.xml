@@ -241,6 +241,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://digivirtual.net/passport/finland/</loc>
+         <lastmod>2024-03-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://digivirtual.net/products/</loc>
          <lastmod>2024-03-31</lastmod>
          <changefreq>daily</changefreq>
